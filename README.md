@@ -85,6 +85,14 @@ python -m http.server 8123 --bind 127.0.0.1 --directory "C:\Users\半白\Documen
 
 改完刷新页面生效，已打的卡不受影响。
 
+## 改完之后怎么发布
+
+```powershell
+powershell -ExecutionPolicy Bypass -File .\update.ps1
+```
+
+自动提交并推送到 GitHub，30–60 秒后线上自动更新（用的是 `.deploy` 里的部署密钥，不需要你输入密码）。
+
 ## 文件结构
 
 ```
@@ -97,6 +105,7 @@ fitplan/
 ├── icon-192.png / icon-512.png / icon-180.png   应用图标
 ├── .github/workflows/pages.yml  推送到 main 自动发布 GitHub Pages
 ├── deploy.ps1           一键部署脚本（需 git + gh）
+├── update.ps1           改完内容一键提交并发布（用 .deploy 密钥）
 ├── DEPLOY.md            三种 HTTPS 部署方案（含零安装方案）
 ├── .nojekyll            GitHub Pages 用
 ├── preview-desktop.png  桌面端预览

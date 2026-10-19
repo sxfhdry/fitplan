@@ -1,4 +1,4 @@
-# 一键部署到 GitHub Pages（需要先装 git 和 gh，并 gh auth login）
+﻿# 一键部署到 GitHub Pages（需要先装 git 和 gh，并 gh auth login）
 # 用法：
 #   powershell -ExecutionPolicy Bypass -File .\deploy.ps1
 #   powershell -ExecutionPolicy Bypass -File .\deploy.ps1 -Repo my-plan
