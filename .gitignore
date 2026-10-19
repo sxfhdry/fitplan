@@ -1,0 +1,5 @@
+_qa/
+*.zip
+.deploy/
+.DS_Store
+Thumbs.db

@@ -1,0 +1,19 @@
+{
+  "name": "减脂 · 备考 计划表",
+  "short_name": "计划表",
+  "description": "每日执行总表：学习打卡、减脂饮食、循环训练与定时提醒",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#f4f6f8",
+  "theme_color": "#2ea36a",
+  "lang": "zh-CN",
+  "dir": "ltr",
+  "categories": ["productivity", "health", "education"],
+  "icons": [
+    { "src": "icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}
