@@ -1,5 +1,9 @@
 # 部署到 HTTPS，让手机能安装并收到通知
 
+> 本仓库已经部署好了：<https://sxfhdry.github.io/fitplan/>
+> 之后只要 `git push` 到 `main`，GitHub Actions 会自动重新发布，不需要再手动操作。
+> 下面的步骤留着备用（换账号、迁到别的托管时再看）。
+
 目标：拿到一个 `https://` 地址，手机打开后「添加到主屏幕」，通知才能用。
 
 > 为什么必须 HTTPS：浏览器只允许安全上下文（HTTPS 或 localhost）注册 Service Worker、发通知。

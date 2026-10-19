@@ -2,6 +2,14 @@
 
 你那份「每日执行总表（减脂版）」做成了一个 **PWA（可安装的网页 App）**：能加到手机主屏幕、全屏打开、离线可用，数据全部存在本机，并且带 **两层提醒**。
 
+## 线上地址（已部署）
+
+```
+https://sxfhdry.github.io/fitplan/
+```
+
+手机打开这个地址 → 添加到主屏幕 → 允许通知，就是一个 App。仓库：<https://github.com/sxfhdry/fitplan>，推送到 `main` 会自动重新发布。
+
 ![桌面端](preview-desktop.png)
 
 ## 打开与安装
